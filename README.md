@@ -1,4 +1,4 @@
-# Cleaning Service Management System - Theme 11
+# Cleaning Service Management System 
 A Python-based application designed for cleaning service providers to manage staff (cleaners), clients, and service contracts with full data persistence.
 
 ## Project Overview
@@ -36,7 +36,7 @@ The system generates specialized reports that are automatically saved to text fi
 
 ## Technical Requirements
 ### Data Architecture
-* **Persistence:** Data is stored in `cleaners.txt`, `clients.txt`, and `services.txt`. Reports are also exported to text files.
+* **Persistence:** Data is stored in `faxineiros.txt`, `clientes.txt`, and `servicos.txt`. Reports are also exported to text files.
 * **Modular Logic:** The program uses functions for every operation. No global variables are used; data flows through the system strictly via parameters and return values.
 * **Conflict Prevention:** The system enforces unique constraints on CPFs to ensure data integrity.
 
